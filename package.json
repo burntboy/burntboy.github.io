@@ -1,7 +1,6 @@
 {
-	"name": "burntboy.github.io",
+	"name": "sveltekit-demo",
 	"version": "0.0.1",
-	"private": true,
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
@@ -9,6 +8,8 @@
 		"gh-pages": "npm run build && npx gh-pages -d build"
 	},
 	"devDependencies": {
+		"@fontsource/fira-mono": "^4.5.10",
+		"@neoconfetti/svelte": "^1.0.0",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/adapter-static": "^2.0.1",
 		"@sveltejs/kit": "^1.5.0",
